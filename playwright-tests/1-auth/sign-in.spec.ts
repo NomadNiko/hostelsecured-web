@@ -8,7 +8,7 @@ test.describe("Sign In", () => {
 
   test.beforeEach(async ({ page }) => {
     email = faker.internet.email({
-      provider: "example.com",
+      provider: "nomadsoft.us",
     });
     password = faker.internet.password();
     await apiCreateNewUser(

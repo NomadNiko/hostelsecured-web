@@ -21,7 +21,7 @@ test.describe("Sign Up", () => {
       .locator("input")
       .fill(
         faker.internet.email({
-          provider: "example.com",
+          provider: "nomadsoft.us",
         })
       );
     await page
@@ -41,7 +41,7 @@ test.describe("Sign Up", () => {
 
   test("should fail with existing email", async ({ page }) => {
     const email = faker.internet.email({
-      provider: "example.com",
+      provider: "nomadsoft.us",
     });
     const firstName = faker.person.firstName();
     const lastName = faker.person.lastName();
@@ -92,7 +92,7 @@ test.describe("Sign Up", () => {
       .locator("input")
       .fill(
         faker.internet.email({
-          provider: "example.com",
+          provider: "nomadsoft.us",
         })
       );
     await expect(page.getByTestId("email-error")).not.toBeVisible();
@@ -128,7 +128,7 @@ test.describe("Sign Up", () => {
       .locator("input")
       .fill(
         faker.internet.email({
-          provider: "example.com",
+          provider: "nomadsoft.us",
         })
       );
 

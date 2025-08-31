@@ -1,8 +1,8 @@
 {
-  "app-name": "APP",
+  "app-name": "HSecure",
   "loading": "Loading ...",
   "navigation": {
-    "home": "Home",
+    "home": "Dashboard",
     "signIn": "Sign In",
     "signUp": "Sign Up",
     "profile": "Profile",

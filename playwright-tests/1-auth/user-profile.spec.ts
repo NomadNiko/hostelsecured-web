@@ -13,7 +13,7 @@ let newPassword: string;
 test.beforeEach(async ({ page }) => {
   await page.goto("/sign-in");
   email = faker.internet.email({
-    provider: "example.com",
+    provider: "nomadsoft.us",
   });
   password = faker.internet.password();
   firstName = faker.person.firstName();
